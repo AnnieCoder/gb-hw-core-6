@@ -8,12 +8,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //
         Animal[] animals = {
                 new Cat("Kitty", "grey"),
                 new Dog("Bobby", "red"),
                 new Cat("Barsik", "white")
         };
 
+        //
         for (Animal animal : animals) {
             if (animal instanceof Cat) {
                 animal.run(100);
